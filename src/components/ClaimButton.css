@@ -1,0 +1,26 @@
+.btn-div {
+    text-align: center;
+    margin: auto;
+}
+
+.btn-div button {
+    width: 370px;
+    padding: 8px;
+    background-color: rgb(238, 139, 103);
+    color: white;
+    font-size: 14px;
+    border-color: rgb(238, 139, 103);
+    outline: none;
+    cursor: pointer; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .btn-div button {
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+    }
+}
